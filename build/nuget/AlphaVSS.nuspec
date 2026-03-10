@@ -18,7 +18,7 @@
          <group targetFramework="net45">
             <dependency id="AlphaVSS.Native.NetFx" version="[$version$]" />
          </group>
-         <group targetFramework="netcoreapp3.1" >
+         <group targetFramework="net8.0" >
             <dependency id="AlphaVSS.Native.NetCore"  version="[$version$]" />
          </group>
       </dependencies>
@@ -29,9 +29,9 @@
       <file src="..\..\artifacts\net45\AlphaVSS.Common.xml" target="lib\net45" />
       <file src="..\..\artifacts\net45\AlphaVSS.Common.pdb" target="lib\net45" />
 
-      <!-- netcoreapp3.1 -->
-      <file src="..\..\artifacts\netcoreapp3.1\AlphaVSS.Common.dll" target="lib\netcoreapp3.1" />
-      <file src="..\..\artifacts\netcoreapp3.1\AlphaVSS.Common.pdb" target="lib\netcoreapp3.1" />
-      <file src="..\..\artifacts\netcoreapp3.1\AlphaVSS.Common.xml" target="lib\netcoreapp3.1" />
+      <!-- net8.0 -->
+      <file src="..\..\artifacts\netcoreapp3.1\AlphaVSS.Common.dll" target="lib\net8.0" />
+      <file src="..\..\artifacts\netcoreapp3.1\AlphaVSS.Common.pdb" target="lib\net8.0" />
+      <file src="..\..\artifacts\netcoreapp3.1\AlphaVSS.Common.xml" target="lib\net8.0" />
    </files>
 </package>

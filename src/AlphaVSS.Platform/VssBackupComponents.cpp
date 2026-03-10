@@ -123,7 +123,9 @@ namespace Alphaleonis {
             return ToGuid(idSnapshot);
          }
 
+#ifdef NETFX
          [SecurityPermissionAttribute(SecurityAction::LinkDemand)]
+#endif
          void VssBackupComponents::BackupComplete()
          {
             ::IVssAsync* pAsync;
